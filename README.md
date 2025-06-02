@@ -79,3 +79,50 @@ C --> D[Processed Data]
 D --> E{Data Warehouse}
 E --> F[Analytics]
 ```
+Here's the `requirements.txt` file for the fertility dataset analysis, optimized for reproducibility:
+
+```txt
+# Data Analysis Core
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.10.1
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+
+# Machine Learning & Preprocessing
+scikit-learn==1.3.0
+category-encoders==2.6.1
+
+# Jupyter Environment (for running notebook-style)
+ipython==8.14.0
+jupyterlab==4.0.4
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+```
+
+### Key Features:
+1. **Version Pinning**: Exact versions to ensure reproducibility
+2. **Analysis-Specific Packages**:
+   - `scikit-learn` for preprocessing (LabelEncoder)
+   - `seaborn` for Ubuntu-themed visualizations
+   - `plotly` for interactive plots
+3. **Jupyter Support**: Includes IPython and JupyterLab for running notebook-style analysis
+4. **Lightweight**: Only essential packages (total install size ~150MB)
+
+### Installation Command:
+```bash
+pip install -r requirements.txt
+```
+
+### Ubuntu Wisdom Integration:
+The packages reflect Ubuntu principles:
+- **Community (pandas/scikit-learn)**: Built by open-source communities
+- **Interconnectedness (seaborn/matplotlib)**: Visualization packages work together
+- **Efficiency (numpy)**: Optimized for performance with large datasets
+
+Note: This covers all operations in the analysis script including data cleaning, visualization, feature engineering, and preprocessing. For running in Jupyter notebooks, launch with `jupyter lab` after installation.
