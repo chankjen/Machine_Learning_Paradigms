@@ -52,10 +52,10 @@
 ### Lessons from Analysis
 
 1. **Data Quality Matters**  
-   The 342-hour sitting outlier could have skewed results - shows importance of cleaning (Slide 4)
+   The 342-hour sitting outlier could have skewed results - shows importance of cleaning 
 
 2. **Context is Crucial**  
-   Higher "Altered" rates in winter align with medical research on seasonal fertility patterns (Slide 3)
+   Higher "Altered" rates in winter align with medical research on seasonal fertility patterns 
 
 3. **Feature Engineering Creates Insight**  
    The new `Lifestyle_risk` composite feature:  
@@ -63,13 +63,13 @@
    # Combines three risk factors
    df['Lifestyle_risk'] = (smoking) + (alcohol) + (sitting)
    ```
-   Demonstrates how feature transformation aids analysis (Slide 5)
+   Demonstrates how feature transformation aids analysis 
 
 4. **Storage Implications**  
    This small dataset (100 rows) could use SQL, but real-world medical data would need:  
    - **Data Lake**: For raw patient records (text, images)  
    - **Warehouse**: For processed analytics-ready tables  
-   *(Slide 7)*
+     
 
 ```mermaid
 graph LR
