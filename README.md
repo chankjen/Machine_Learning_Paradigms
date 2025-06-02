@@ -1,6 +1,5 @@
 ### Comprehensive Analysis of `fertility.csv` Using Python
 
-I'll demonstrate key data science concepts from your presentation using this dataset, infused with Ubuntu principles. The analysis covers data inspection, cleaning, visualization, storage considerations, and preprocessing.
 ---
 
 ### Key Insights & Ubuntu Connections
