@@ -11,13 +11,13 @@
 
 2. **Exploratory Analysis (Ubuntu: "Sharing Community Stories")**
    - **Age Distribution**: Majority aged 28-33 (peak fertility years)
-     ![Screenshot 2025-06-03 014758](https://github.com/user-attachments/assets/f6c3adf2-5334-4c01-a7a0-b55bd6b28e39)
+   - ![Screenshot 2025-06-03 014758](https://github.com/user-attachments/assets/f6c3adf2-5334-4c01-a7a0-b55bd6b28e39)
 
    - **Diagnosis**: 84.3% Normal, 15.7% Altered
-    ![Screenshot 2025-06-03 014816](https://github.com/user-attachments/assets/6d714f8d-35c8-4d78-bbb5-e28b9739cb30)
+   - ![Screenshot 2025-06-03 014816](https://github.com/user-attachments/assets/6d714f8d-35c8-4d78-bbb5-e28b9739cb30)
 
    - **Key Observation**: Higher sitting hours correlate with "Altered" diagnosis
-    ![Screenshot 2025-06-03 014935](https://github.com/user-attachments/assets/0eee6237-f444-4458-90f9-4a235ed1a624)
+   - ![Screenshot 2025-06-03 014935](https://github.com/user-attachments/assets/0eee6237-f444-4458-90f9-4a235ed1a624)
 
 
 3. **Feature Relationships (Ubuntu: "We Are Connected")**
